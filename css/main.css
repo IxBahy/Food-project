@@ -1,0 +1,275 @@
+html {
+	font-size: 16px;
+	font-family: "Lato", sans-serif;
+	overflow-x: hidden;
+}
+:root {
+	--main-color: rgba(238, 157, 6, 0.829);
+}
+header {
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url(../images/hero.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.headerNavBar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.headerNavBar ul {
+	display: flex;
+}
+.headerNavBar ul a {
+	margin-left: 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: whitesmoke;
+	transition: all 0.5s;
+}
+.headerNavBar ul a:hover {
+	color: rgba(245, 245, 245, 0.65);
+}
+.logo {
+	height: 100px;
+	margin-top: 20px;
+	transition: all 1s ease-in-out;
+}
+.logo:hover {
+	transform: rotatey(180deg);
+}
+.headerContent {
+	color: whitesmoke;
+	margin-left: 6%;
+	margin-top: 16%;
+}
+.headerContent h1 {
+	font-size: 55px;
+	line-height: 200%;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+}
+.headerContent a {
+	margin-left: 30px;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 2px solid rgb(114, 65, 5);
+	border-radius: 10px;
+	color: whitesmoke;
+	transition: background-color 0.5s;
+}
+.headerContent a:hover {
+	background-color: rgb(161, 78, 0);
+}
+section {
+	padding: 40px 0px;
+}
+section h2 {
+	font-size: 40px;
+	line-height: 200%;
+	word-spacing: 5px;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+section hr {
+	position: relative;
+	right: 10px;
+	height: 3px;
+	background-color: rgb(240, 118, 4);
+	border: none;
+	width: 10%;
+	margin: 0px auto;
+	margin-bottom: 20px;
+	bottom: 20px;
+}
+.featuresDesc {
+	text-align: center;
+	line-height: 150%;
+	margin-bottom: 40px;
+}
+.featureBox {
+	text-align: center;
+	font-weight: 100;
+	line-height: 150%;
+}
+.featureBox h3 {
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+	font-weight: 100;
+}
+.icon {
+	text-align: right;
+	color: var(--main-color);
+	font-size: 40px;
+	margin-bottom: 5px;
+}
+.meal {
+	padding: 0;
+	margin-bottom: 0px;
+	background-color: black;
+	overflow: hidden;
+}
+.meal img {
+	width: 100%;
+	opacity: 0.5;
+	transition: all 0.7s;
+}
+.meal img:hover {
+	opacity: 1;
+	transform: scale(1.1);
+}
+.leftSide {
+	text-align: right;
+	padding-right: 30px;
+}
+
+.leftSide img {
+	width: 40%;
+}
+.rightSide {
+	padding-top: 80px;
+}
+.step {
+	display: flex;
+	align-items: center;
+	margin-bottom: 50px;
+	margin-left: 30px;
+}
+.step div {
+	display: flex;
+	color: var(--main-color);
+	font-size: 35px;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+	border: 3px solid var(--main-color);
+	margin-right: 20px;
+}
+.step ~ p {
+	font-size: 20px;
+	font-weight: 700;
+}
+.downloadBtn img {
+	width: 150px;
+	margin-left: 10px;
+	height: 50px;
+}
+.city img {
+	width: 100%;
+}
+.city h4 {
+	padding-left: 20px;
+}
+.city ul li {
+	list-style: none;
+	font-size: 20px;
+}
+.city ul li .icon {
+	display: inline-block;
+	font-size: 22px;
+	margin-right: 20px;
+}
+.city ul .twitterAccount {
+	text-decoration: underline;
+	color: var(--main-color);
+}
+#reviews {
+	height: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url(../images/back-customers.jpg);
+	background-position: center;
+	background-size: cover;
+}
+#reviews .container {
+	color: whitesmoke;
+}
+#reviews .container hr {
+	background-color: rgb(255, 136, 24);
+	opacity: 1;
+}
+.quotation {
+	font-size: 35px;
+}
+.customerReview {
+	font-size: 20px;
+}
+.customerReview div {
+	font-size: 16px;
+}
+.customerReview img {
+	width: 50px;
+	border-radius: 50%;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+}
+#subsecribtion {
+	background-color: rgb(231, 228, 228);
+}
+
+.subCard {
+	display: relative;
+	left: 10%;
+	background-color: rgb(235, 235, 235);
+	margin-right: 100px;
+	border-radius: 6px;
+	box-shadow: 0 0 3px 0 black;
+}
+.card-body h5 {
+	font-size: 25px;
+}
+.card-body .price {
+	color: var(--main-color);
+	margin-bottom: 0px;
+}
+.card-body .price span {
+	font-size: 3rem;
+}
+.card-body p {
+	margin-bottom: 25px;
+	font-weight: 100;
+}
+.card-body hr {
+	width: 110%;
+	background-color: black;
+	opacity: 0.3;
+	height: 0.5px;
+	margin-bottom: 0px;
+}
+.subList {
+	padding-left: 0px;
+	list-style: none;
+	padding-bottom: 15px;
+	line-height: 250%;
+	font-weight: 100;
+	letter-spacing: 0.5px;
+}
+.subList .icon {
+	font-size: 16px;
+	margin-right: 15px;
+}
+.subButton {
+	position: relative;
+	left: 34px;
+	bottom: 2px;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 2px solid rgb(204, 123, 23);
+	border-radius: 43%;
+	color: black;
+	transition: all 0.3s;
+	text-align: center;
+	line-height: 45.6px;
+}
+.subButton:hover {
+	background-color: rgb(216, 127, 44);
+	color: whitesmoke;
+}
+.subButton:active {
+	padding: 11px 21px;
+}
