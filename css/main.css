@@ -226,6 +226,7 @@ section hr {
 		url(../images/back-customers.jpg);
 	background-position: center;
 	background-size: cover;
+	background-attachment: scroll;
 }
 
 #reviews .container {
